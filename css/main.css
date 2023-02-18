@@ -13,12 +13,6 @@
   width: 635px;
 }
 
-.item-discription{
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-}
-
 em{
   color: #CF5510;
 }
@@ -56,7 +50,7 @@ em{
   }
 
   .title {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 9px;
 }

@@ -47,6 +47,7 @@
 
 @media screen and (max-width: 700px ){
   .item-title{
+    font-size: 22px;
     padding: 0px 24px 1px;
   }
   .cours-video{
