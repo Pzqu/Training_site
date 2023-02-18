@@ -54,11 +54,11 @@
 
 .login-popup{
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, -113%);
+  transform: translate(-50%, -52%);
   box-sizing: border-box;
   width: 100%;
   max-width: 500px;
@@ -112,22 +112,16 @@
 
 .login-input {
   width: 444px;
-/*   background: #FFFFFF; */
-/*   border: 1px sold #808080; */
   font-size: 24px;
   line-height: 28px;
-  /* color: #808080; */
   padding: 10px;
   
 }
 
 .login-password {
   width: 444px;
-/*   background: #FFFFFF;
-  border: 1px sold #808080; */
   font-size: 24px;
   line-height: 28px;
-/*   color: #808080; */
   padding: 10px;
 }
 
@@ -153,6 +147,7 @@
 
   .item__link{
     font-size: 16px;
+    padding: 5px 14px;
   }
 
   .nav__list{

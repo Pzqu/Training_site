@@ -1,5 +1,5 @@
 .contact-title{
-  font-family: 'Roboto';
+
   font-weight: 700;
   font-size: 30px;
   line-height: 35px;
@@ -33,7 +33,7 @@ iframe{
 
 @media screen and (max-width: 700px ){
   .contact-title{
-    font-size: 24px;
+    font-size: 22px;
     white-space: nowrap;
     padding: 5px 125px;
   }
@@ -46,10 +46,12 @@ iframe{
   }
 
   .item-contact{
+    font-size: 14px;
     padding: 0px 47px ;
   }
 
   .phone {
+    font-size: 14px;
     padding-left: 44px;
     text-decoration: underline;
     margin-top: 16px;

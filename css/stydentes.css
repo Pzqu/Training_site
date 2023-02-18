@@ -10,7 +10,7 @@
 .student__card{
   width: 210px;
   text-align: center;
-  
+  position: relative;
 }
 
 .student{
@@ -21,18 +21,38 @@
 }
 
 .student__card-img{
-  width: 100%;  
+  width: 200px;
   height: 270px;    
   background-color: #86C6F4;
   margin-bottom: 8px;
   text-align: center;
 }
 
+.new-student {
+  position: absolute;
+  right: 0px;
+  top: -12px;
+  width: 94px;
+  height: 24px;
+  background-color: #3AA828;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 10px;
+}
 .span-name{  
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
 } 
+
+.pages{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 700px ){
   .title-p{

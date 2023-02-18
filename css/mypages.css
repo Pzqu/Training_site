@@ -1,0 +1,376 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.foto-dodik {
+  width: 98%;
+  max-height: 692px;
+}
+
+.frame {
+  position: relative;
+  width: 98%;
+  height: 72px;
+  background-color: #CF5510;
+  bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.developer-text {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.left__section {
+  width: 85%;
+  margin-top: 62px;
+  max-width: 414px;
+  height: 700px;
+}
+
+.right__title {
+  display: block;
+  padding: 42px 70px;
+  height: 330px;
+  width: 845px;
+}
+
+.right__item {
+  display: flex;
+  flex-direction: column;
+  margin: 342px -772px;
+  flex-wrap: wrap;
+  width: 705px;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.item-moskva {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.item-discription {
+  padding: 9px 4px;
+  width: 86%;
+  max-width: 700px;
+}
+
+.icons {
+  display: flex;
+  gap: 0 19px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.technologies {
+  display: flex;
+  width: 400px;
+  gap: 24px
+}
+
+.layout {
+  max-width: 136px;
+  height: 50px;
+  padding: 25px 38px;
+  border-radius: 25px;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #CF5510;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 12px 0px 18px;
+}
+
+.send-form {
+  padding-top: 38px;
+}
+
+.input-login {
+  width: 338px;
+  height: 38px;
+  border: 1px solid #121212;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.login-message {
+  width: 338px;
+  height: 38px;
+  border: 1px solid #121212;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.button__send {
+  width: 682px;
+  height: 66px;
+  border-radius: 11px;
+  border: none;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+  background-color: #CF5510;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1240px) {
+  .left__section {
+    margin-left: 10px;
+  }
+
+  .right__item {
+    width: 56%;
+    margin: 407px -771px;
+  }
+
+  .technologies {
+    flex-wrap: wrap;
+    width: 368px;
+  }
+
+  .layout {
+    width: 104px;
+    height: 38px;
+    padding: 25px 38px;
+    font-size: 16px;
+    font-size: 19px;
+    background-color: #CF5510;
+    align-items: center;
+    margin: 0px 0px 0px;
+    justify-content: center;
+  }
+
+  .foto-dodik {
+    width: 372px;
+    margin-top: 68px;
+  }
+
+  .frame {
+    width: 373px;
+    height: 62px;
+  }
+
+  .developer-text {
+    font-size: 26px;
+  }
+
+  .send-form {
+    padding-top: 5px;
+  }
+
+  .item-discription {
+    width: 80%;
+  }
+
+  .input-login {
+    width: 238px;
+    height: 38px;
+    border: 1px solid #121212;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 40%;
+  }
+
+  .login-message {
+    width: 238px;
+    height: 38px;
+    border: 1px solid #121212;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 40%;
+  }
+
+  .button__send {
+    width: 483px;
+    height: 58px;
+    margin-top: 10px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .left__section {
+    width: 284px;
+    height: 414px;
+    margin: 18px 0px;
+  }
+
+  .foto-dodik {
+    width: 276px;
+    margin-top: 0px;
+    height: 400px;
+    padding-left: 24px;
+  }
+
+  .frame {
+    width: 252px;
+    height: 59px;
+    margin-left: 24px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .right__title {
+    padding: 2px 99px;
+    padding: 40px 8px;
+    height: 330px;
+    width: 417px;
+  }
+
+  .right__item {
+    display: block;
+    padding: 34px 0px;
+    height: 447px;
+    margin: 405px -684px;
+    width: 86%;
+  }
+
+  .item-moskva {
+    width: 84%;
+    font-size: 20px;
+  }
+
+  .icons {
+    display: flex;
+    gap: 0 6px;
+    padding-top: 13px;
+    margin-bottom: 0px;
+  }
+
+  .item-title {
+    padding: 14px 0 10px;
+  }
+
+  .item-discription {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+
+  .none-transfer {
+    display: contents;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .send-form {
+    padding: 5px 8px;
+  }
+
+  .button__send {
+    height: 48px;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+    display: block;
+    margin: auto;
+  }
+
+  .left__section {
+    width: 100%;
+    height: 550px;
+    margin: auto;
+  }
+
+  .foto-dodik {
+    margin-top: 29px;
+    height: 520px;
+    width: 321px;
+    margin-left: 4px;
+  }
+
+  .frame {
+    width: 298px;
+    height: 60px;
+    margin-left: 27px;
+  }
+
+  .right__title {
+    height: 279px;
+    width: 308px;
+
+    margin-left: 20px;
+  }
+
+  .right__item {
+    display: block;
+    padding: 39px 0px;
+    margin: 120px 18px;
+  }
+
+
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    width: 222px;
+    margin-top: -27px;
+  }
+
+
+  .item-discription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 0px;
+    margin-top: -14px;
+  }
+
+  .send-form {
+    width: 290px;
+  }
+
+  .input-login {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .login-message {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .button__send {
+    width: 100%;
+    height: 39px;
+    font-size: 16px;
+  }
+}
