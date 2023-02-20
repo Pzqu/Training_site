@@ -45,14 +45,6 @@
   width: 845px;
 }
 
-.right__item {
-  display: flex;
-  flex-direction: column;
-  margin: 342px -772px;
-  flex-wrap: wrap;
-  width: 705px;
-}
-
 .title {
   padding-top: 20px;
 }
@@ -97,7 +89,7 @@
 }
 
 .send-form {
-  padding-top: 38px;
+  padding-top: 62px;
 }
 
 .input-login {
@@ -131,14 +123,13 @@
 }
 
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1196px) {
   .left__section {
     margin-left: 10px;
   }
 
-  .right__item {
-    width: 56%;
-    margin: 407px -771px;
+  .right__section {
+    width: 54%;
   }
 
   .technologies {
@@ -177,7 +168,7 @@
   }
 
   .item-discription {
-    width: 80%;
+    width: 180%;
   }
 
   .input-login {
@@ -203,6 +194,11 @@
     height: 58px;
     margin-top: 10px;
     width: 80%;
+  }
+
+  .send-form {
+    padding-top: 5px;
+    width: 182%;
   }
 }
 
@@ -236,7 +232,7 @@
   .technologies {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 241px;
   }
 
   .right__title {
@@ -244,14 +240,6 @@
     padding: 40px 8px;
     height: 330px;
     width: 417px;
-  }
-
-  .right__item {
-    display: block;
-    padding: 34px 0px;
-    height: 447px;
-    margin: 405px -684px;
-    width: 86%;
   }
 
   .item-moskva {
@@ -267,7 +255,13 @@
   }
 
   .item-title {
-    padding: 14px 0 10px;
+    padding: 14px 10px;
+  }
+
+  .section__transform {
+    display: block;
+    width: 154%;
+    margin: 9px -267px;
   }
 
   .item-discription {
@@ -287,7 +281,8 @@
   }
 
   .send-form {
-    padding: 5px 8px;
+    padding: 16px 0px;
+    width: 100%;
   }
 
   .button__send {
@@ -297,7 +292,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 554px) {
   .main {
     display: block;
     margin: auto;
@@ -322,20 +317,14 @@
     margin-left: 27px;
   }
 
-  .right__title {
-    height: 279px;
-    width: 308px;
-
-    margin-left: 20px;
+  .right__section {
+    width: 54%;
+    margin: 37px 30px;
   }
 
-  .right__item {
-    display: block;
-    padding: 39px 0px;
-    margin: 120px 18px;
+  .technologies {
+    margin-bottom: -21px;
   }
-
-
 
   .title {
     font-size: 20px;
@@ -345,17 +334,14 @@
     margin-top: -27px;
   }
 
-
   .item-discription {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    padding-left: 0px;
-    margin-top: -14px;
+    width: 297%;
+    margin: 2px -45px;
   }
 
   .send-form {
-    width: 290px;
+    margin-left: -38px;
+    width: 280%;
   }
 
   .input-login {
