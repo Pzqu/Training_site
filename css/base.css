@@ -1,6 +1,6 @@
 .main{
   height: calc(100vh - 136px); 
-  overflow-x: auto;
+  overflow-y: auto;
   padding: 0 50 0 50px;
 }
 
