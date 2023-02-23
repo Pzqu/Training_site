@@ -1,5 +1,5 @@
 .main{
-  height: calc(100vh - 136px); 
+  height: calc(100vh - 134px); 
   overflow-x: auto;
   padding: 0 50 0 50px;
 }
@@ -8,8 +8,7 @@ html{
   font-family: 'Roboto' , sans-serif;
 }
 
-.container{
-  width: 100%;  
+.container{ 
   max-width: 1300px; 
   margin: 0 auto;
 }
