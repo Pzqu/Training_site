@@ -8,8 +8,7 @@ html{
   font-family: 'Roboto' , sans-serif;
 }
 
-.container{
-  width: 100%;  
+.container{ 
   max-width: 1300px; 
   margin: 0 auto;
 }
